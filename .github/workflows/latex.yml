@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Compile latex
-        uses: xu-cheng/latex-action@v2
+        uses: dante-ev/latex-action@master
         args: -latexoption=-interaction=nonstopmode
         with:
           root_file: main.tex
