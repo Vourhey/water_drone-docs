@@ -29,6 +29,7 @@ jobs:
       - name: Compile latex
         uses: dante-ev/latex-action@master
         with:
+          extra_system_packages: texlive-langcyrillic
           args: -latexoption=-interaction=nonstopmode
           root_file: main.tex
 
