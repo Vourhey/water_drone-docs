@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Compile latex
         uses: dante-ev/latex-action@master
-        args: -latexoption=-interaction=nonstopmode
         with:
+          args: -latexoption=-interaction=nonstopmode
           root_file: main.tex
 
       - name: Uploading artifacts
